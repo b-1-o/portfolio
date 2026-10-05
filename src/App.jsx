@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import RippleDistortion from './RippleDistortion';
 import FlexCarousel from './FlexCarousel';
 import autoProjects from './projects.auto.json';
+import { fetchLiveProjects } from './githubProjects';
 
 import pageBg from '../assets/page.png';
 import sfxClick from '../assets/Cough_Nothing_Phone_2_Stock_Notification-649463-mobiles24.mp3';
@@ -66,7 +67,7 @@ const SFX = {
   error: sfxError,
 };
 
-const projects = autoProjects;
+const initialProjects = Array.isArray(autoProjects) ? autoProjects : [];
 
 const services = [
   { title: 'Product UI', text: 'Interfaces for real products — dashboards, booking flows, music tools and command centers with clear hierarchy.' },
@@ -87,7 +88,7 @@ const skills = {
   other: ['Python', 'FastAPI', 'Swift / iOS', 'Bazel', 'Node', 'UI design'],
 };
 
-const CAROUSEL_ITEMS = projects.map(p => ({
+const makeCarouselItems = list => list.map(p => ({
   src: projectIcon(p.icon || 'web'),
   alt: p.name,
   title: p.name,
@@ -137,10 +138,21 @@ function App() {
   const audioRef = useRef({});
   const [openProject, setOpenProject] = useState(null);
   const [rippleReady, setRippleReady] = useState(false);
+  const [projects, setProjects] = useState(initialProjects);
 
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date()), 1000);
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetchLiveProjects(controller.signal)
+      .then(setProjects)
+      .catch(error => {
+        if (error?.name !== 'AbortError') console.warn('Using cached project catalog:', error);
+      });
+    return () => controller.abort();
   }, []);
 
   useEffect(() => {
@@ -220,6 +232,7 @@ function App() {
   };
 
   const formattedTime = time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  const CAROUSEL_ITEMS = makeCarouselItems(projects);
 
   return (
     <main className="page">
