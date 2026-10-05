@@ -1,4 +1,4 @@
-name: Deploy s1eep
+name: Deploy portfolio
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
