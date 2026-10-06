@@ -1,6 +1,32 @@
 [
   {
     "id": "01",
+    "name": "coffee",
+    "icon": "brand",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "coffee — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/coffee",
+    "site": "https://b-1-o.github.io/coffee/"
+  },
+  {
+    "id": "02",
+    "name": "nothing",
+    "icon": "phone",
+    "kind": "GITHUB · CSS",
+    "blurb": "nothing — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/nothing",
+    "site": "https://b-1-o.github.io/nothing/"
+  },
+  {
+    "id": "03",
     "name": "AI",
     "icon": "agent",
     "kind": "GITHUB · TYPESCRIPT",
@@ -13,64 +39,25 @@
     "site": "https://b-1-o.github.io/AI/"
   },
   {
-    "id": "02",
-    "name": "coffee",
-    "icon": "brand",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "coffee — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/2/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/coffee",
-    "site": "https://b-1-o.github.io/coffee/"
-  },
-  {
-    "id": "03",
-    "name": "heaven",
-    "icon": "terminal",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "heaven — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 9/30/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/heaven",
-    "site": "https://b-1-o.github.io/heaven/"
-  },
-  {
     "id": "04",
-    "name": "nothing",
-    "icon": "phone",
-    "kind": "GITHUB · CSS",
-    "blurb": "nothing — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 9/30/2026.",
+    "name": "Bio",
+    "icon": "linux",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "Bio — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
     "stack": [
-      "CSS"
+      "TypeScript"
     ],
-    "repo": "https://github.com/b-1-o/nothing",
-    "site": "https://b-1-o.github.io/nothing/"
+    "repo": "https://github.com/b-1-o/Bio",
+    "site": "https://b-1-o.github.io/Bio/"
   },
   {
     "id": "05",
-    "name": "music",
-    "icon": "music",
-    "kind": "GITHUB · CSS",
-    "blurb": "music — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 9/27/2026.",
-    "stack": [
-      "CSS"
-    ],
-    "repo": "https://github.com/b-1-o/music",
-    "site": "https://b-1-o.github.io/music/"
-  },
-  {
-    "id": "06",
     "name": "my",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
     "blurb": "my — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 9/23/2026.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
     "stack": [
       "TypeScript"
     ],
@@ -78,16 +65,29 @@
     "site": "https://b-1-o.github.io/my/"
   },
   {
+    "id": "06",
+    "name": "music",
+    "icon": "music",
+    "kind": "GITHUB · CSS",
+    "blurb": "music — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/music",
+    "site": "https://b-1-o.github.io/music/"
+  },
+  {
     "id": "07",
-    "name": "Bio",
-    "icon": "linux",
+    "name": "heaven",
+    "icon": "terminal",
     "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "Bio — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 9/23/2026.",
+    "blurb": "heaven — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
     "stack": [
       "TypeScript"
     ],
-    "repo": "https://github.com/b-1-o/Bio",
-    "site": "https://b-1-o.github.io/Bio/"
+    "repo": "https://github.com/b-1-o/heaven",
+    "site": "https://b-1-o.github.io/heaven/"
   }
 ]
