@@ -1,29 +1,29 @@
 [
   {
     "id": "01",
-    "name": "AI",
+    "name": "JoBrain",
     "icon": "agent",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "AI — public GitHub project.",
+    "kind": "GITHUB · CSS",
+    "blurb": "JoBrain — public GitHub project.",
     "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
     "stack": [
-      "TypeScript"
+      "CSS"
     ],
-    "repo": "https://github.com/b-1-o/AI",
-    "site": "https://b-1-o.github.io/AI/"
+    "repo": "https://github.com/b-1-o/JoBrain",
+    "site": null
   },
   {
     "id": "02",
-    "name": "coffee",
-    "icon": "brand",
+    "name": "heaven",
+    "icon": "terminal",
     "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "coffee — public GitHub project.",
+    "blurb": "heaven — public GitHub project.",
     "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
     "stack": [
       "TypeScript"
     ],
-    "repo": "https://github.com/b-1-o/coffee",
-    "site": "https://b-1-o.github.io/coffee/"
+    "repo": "https://github.com/b-1-o/heaven",
+    "site": "https://b-1-o.github.io/heaven/"
   },
   {
     "id": "03",
@@ -40,6 +40,32 @@
   },
   {
     "id": "04",
+    "name": "AI",
+    "icon": "agent",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "AI — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/AI",
+    "site": "https://b-1-o.github.io/AI/"
+  },
+  {
+    "id": "05",
+    "name": "coffee",
+    "icon": "brand",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "coffee — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/coffee",
+    "site": "https://b-1-o.github.io/coffee/"
+  },
+  {
+    "id": "06",
     "name": "nothing",
     "icon": "phone",
     "kind": "GITHUB · CSS",
@@ -52,7 +78,7 @@
     "site": "https://b-1-o.github.io/nothing/"
   },
   {
-    "id": "05",
+    "id": "07",
     "name": "music",
     "icon": "music",
     "kind": "GITHUB · CSS",
@@ -65,20 +91,7 @@
     "site": "https://b-1-o.github.io/music/"
   },
   {
-    "id": "06",
-    "name": "heaven",
-    "icon": "terminal",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "heaven — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/heaven",
-    "site": "https://b-1-o.github.io/heaven/"
-  },
-  {
-    "id": "07",
+    "id": "08",
     "name": "Bio",
     "icon": "linux",
     "kind": "GITHUB · TYPESCRIPT",
@@ -91,7 +104,7 @@
     "site": "https://b-1-o.github.io/Bio/"
   },
   {
-    "id": "08",
+    "id": "09",
     "name": "my",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
