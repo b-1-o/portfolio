@@ -5,15 +5,28 @@
     "icon": "agent",
     "kind": "GITHUB · CSS",
     "blurb": "JoBrain — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
+    "detail": "Public GitHub repository · main branch · updated 10/7/2026.",
     "stack": [
       "CSS"
     ],
     "repo": "https://github.com/b-1-o/JoBrain",
-    "site": null
+    "site": "https://jobrain.vercel.app"
   },
   {
     "id": "02",
+    "name": "autofill",
+    "icon": "web",
+    "kind": "GITHUB · JAVASCRIPT",
+    "blurb": "autofill — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/7/2026.",
+    "stack": [
+      "JavaScript"
+    ],
+    "repo": "https://github.com/b-1-o/autofill",
+    "site": null
+  },
+  {
+    "id": "03",
     "name": "heaven",
     "icon": "terminal",
     "kind": "GITHUB · TYPESCRIPT",
@@ -24,19 +37,6 @@
     ],
     "repo": "https://github.com/b-1-o/heaven",
     "site": "https://b-1-o.github.io/heaven/"
-  },
-  {
-    "id": "03",
-    "name": "autofill",
-    "icon": "web",
-    "kind": "GITHUB · JAVASCRIPT",
-    "blurb": "autofill — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
-    "stack": [
-      "JavaScript"
-    ],
-    "repo": "https://github.com/b-1-o/autofill",
-    "site": null
   },
   {
     "id": "04",
