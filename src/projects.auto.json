@@ -3,11 +3,11 @@
     "id": "01",
     "name": "JoBrain",
     "icon": "agent",
-    "kind": "GITHUB · CSS",
+    "kind": "GITHUB · TYPESCRIPT",
     "blurb": "JoBrain — public GitHub project.",
     "detail": "Public GitHub repository · main branch · updated 10/8/2026.",
     "stack": [
-      "CSS"
+      "TypeScript"
     ],
     "repo": "https://github.com/b-1-o/JoBrain",
     "site": "https://jobrain.vercel.app"
