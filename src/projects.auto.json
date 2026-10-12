@@ -1,6 +1,19 @@
 [
   {
     "id": "01",
+    "name": "selfmusic",
+    "icon": "music",
+    "kind": "GITHUB · CSS",
+    "blurb": "selfmusic — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/12/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/selfmusic",
+    "site": "https://b-1-o.github.io/selfmusic/"
+  },
+  {
+    "id": "02",
     "name": "JoBrain",
     "icon": "agent",
     "kind": "GITHUB · TYPESCRIPT",
@@ -13,7 +26,7 @@
     "site": "https://jobrain.vercel.app"
   },
   {
-    "id": "02",
+    "id": "03",
     "name": "autofill",
     "icon": "web",
     "kind": "GITHUB · JAVASCRIPT",
@@ -26,7 +39,7 @@
     "site": null
   },
   {
-    "id": "03",
+    "id": "04",
     "name": "heaven",
     "icon": "terminal",
     "kind": "GITHUB · TYPESCRIPT",
@@ -39,7 +52,7 @@
     "site": "https://b-1-o.github.io/heaven/"
   },
   {
-    "id": "04",
+    "id": "05",
     "name": "AI",
     "icon": "agent",
     "kind": "GITHUB · TYPESCRIPT",
@@ -52,7 +65,7 @@
     "site": "https://b-1-o.github.io/AI/"
   },
   {
-    "id": "05",
+    "id": "06",
     "name": "coffee",
     "icon": "brand",
     "kind": "GITHUB · TYPESCRIPT",
@@ -65,7 +78,7 @@
     "site": "https://b-1-o.github.io/coffee/"
   },
   {
-    "id": "06",
+    "id": "07",
     "name": "nothing",
     "icon": "phone",
     "kind": "GITHUB · CSS",
@@ -78,7 +91,7 @@
     "site": "https://b-1-o.github.io/nothing/"
   },
   {
-    "id": "07",
+    "id": "08",
     "name": "music",
     "icon": "music",
     "kind": "GITHUB · CSS",
@@ -91,7 +104,7 @@
     "site": "https://b-1-o.github.io/music/"
   },
   {
-    "id": "08",
+    "id": "09",
     "name": "Bio",
     "icon": "linux",
     "kind": "GITHUB · TYPESCRIPT",
@@ -104,7 +117,7 @@
     "site": "https://b-1-o.github.io/Bio/"
   },
   {
-    "id": "09",
+    "id": "10",
     "name": "my",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
