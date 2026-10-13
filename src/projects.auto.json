@@ -1,132 +1,186 @@
 [
   {
     "id": "01",
-    "name": "selfmusic",
-    "icon": "music",
-    "kind": "GITHUB · JAVASCRIPT",
-    "blurb": "selfmusic — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/13/2026.",
+    "name": "JoBrain",
+    "icon": "agent",
+    "kind": "PRODUCT · FULL-STACK SAAS",
+    "blurb": "A job-search command center for discovering roles, tracking applications, and understanding the hiring funnel.",
+    "detail": "Built with Next.js 16, React 19, TypeScript, Prisma and PostgreSQL/Neon. Includes multi-source discovery, filters, an application pipeline, analytics and a companion autofill extension.",
     "stack": [
-      "JavaScript"
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "PostgreSQL / Neon",
+      "Prisma",
+      "Vercel"
     ],
-    "repo": "https://github.com/b-1-o/selfmusic",
-    "site": "https://b-1-o.github.io/selfmusic/"
+    "repo": "https://github.com/b-1-o/JoBrain",
+    "site": "https://jobrain.vercel.app/",
+    "preview": null
   },
   {
     "id": "02",
-    "name": "JoBrain",
-    "icon": "agent",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "JoBrain — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/10/2026.",
+    "name": "HEAVEN",
+    "icon": "terminal",
+    "kind": "FULL-STACK · DEVELOPER WORKSPACE",
+    "blurb": "A developer command center for GitHub activity, workspaces, deployments, meetings, and team integrations.",
+    "detail": "Next.js App Router with Clerk Organizations, Neon PostgreSQL, GitHub OAuth, Zoom Server-to-Server OAuth, Discord integration and server-side token protection.",
     "stack": [
-      "TypeScript"
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Neon PostgreSQL",
+      "Clerk",
+      "OAuth",
+      "Vercel"
     ],
-    "repo": "https://github.com/b-1-o/JoBrain",
-    "site": "https://jobrain.vercel.app"
+    "repo": "https://github.com/b-1-o/heaven",
+    "site": "https://heaven-b1o.vercel.app/",
+    "preview": "https://raw.githubusercontent.com/b-1-o/heaven/main/preview.jpeg"
   },
   {
     "id": "03",
-    "name": "autofill",
-    "icon": "web",
-    "kind": "GITHUB · JAVASCRIPT",
-    "blurb": "autofill — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/7/2026.",
+    "name": "AI Experience",
+    "icon": "agent",
+    "kind": "CREATIVE FRONTEND · CANVAS / GSAP",
+    "blurb": "A cinematic, scroll-driven visual journey where a custom particle system morphs through multiple scenes.",
+    "detail": "React 19, TypeScript, Vite, GSAP timelines and Canvas rendering. Includes responsive overlays and reversible scroll-driven states.",
     "stack": [
-      "JavaScript"
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "GSAP",
+      "Canvas API"
     ],
-    "repo": "https://github.com/b-1-o/autofill",
-    "site": null
+    "repo": "https://github.com/b-1-o/AI",
+    "site": "https://b-1-o.github.io/AI/",
+    "preview": "https://raw.githubusercontent.com/b-1-o/AI/main/assets/preview.jpeg"
   },
   {
     "id": "04",
-    "name": "heaven",
-    "icon": "terminal",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "heaven — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/heaven",
-    "site": "https://b-1-o.github.io/heaven/"
-  },
-  {
-    "id": "05",
-    "name": "AI",
-    "icon": "agent",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "AI — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/AI",
-    "site": "https://b-1-o.github.io/AI/"
-  },
-  {
-    "id": "06",
-    "name": "coffee",
-    "icon": "brand",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "coffee — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/coffee",
-    "site": "https://b-1-o.github.io/coffee/"
-  },
-  {
-    "id": "07",
-    "name": "nothing",
+    "name": "Nothing",
     "icon": "phone",
-    "kind": "GITHUB · CSS",
-    "blurb": "nothing — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
+    "kind": "PRODUCT EXPERIENCE · WEBGL",
+    "blurb": "An immersive product website concept inspired by industrial design, editorial typography, and tactile motion.",
+    "detail": "Next.js 16, React 19, TypeScript, OGL/WebGL and custom CSS. Built around responsive product presentation and a lightweight visual layer.",
     "stack": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "OGL / WebGL",
       "CSS"
     ],
     "repo": "https://github.com/b-1-o/nothing",
-    "site": "https://b-1-o.github.io/nothing/"
+    "site": "https://b-1-o.github.io/nothing/",
+    "preview": "https://raw.githubusercontent.com/b-1-o/nothing/main/assets/preview.jpeg"
   },
   {
-    "id": "08",
-    "name": "music",
+    "id": "05",
+    "name": "SelfMusic",
     "icon": "music",
-    "kind": "GITHUB · CSS",
-    "blurb": "music — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/6/2026.",
+    "kind": "SELF-HOSTED · PERSONAL MUSIC SERVER",
+    "blurb": "A personal music server with a private library, playlists, streaming, and a device-friendly web player.",
+    "detail": "Local-first architecture with a SQLite metadata index, account-scoped data, range-based audio streaming, optional FFmpeg transcoding, an installable PWA and remote access options.",
     "stack": [
+      "Node.js",
+      "JavaScript",
+      "SQLite",
+      "FFmpeg",
+      "PWA",
+      "HTTP streaming"
+    ],
+    "repo": "https://github.com/b-1-o/selfmusic",
+    "site": null,
+    "preview": null
+  },
+  {
+    "id": "06",
+    "name": "b1api · Music",
+    "icon": "music",
+    "kind": "WEB APP · YOUTUBE API",
+    "blurb": "A cinematic, local-first music experience with YouTube search, playback, playlists, likes and history.",
+    "detail": "Uses YouTube Data API v3 for discovery and the official YouTube IFrame Player for playback. Playlists, likes, history and appearance preferences stay in browser storage.",
+    "stack": [
+      "JavaScript",
+      "YouTube Data API v3",
+      "YouTube IFrame Player",
+      "HTML",
       "CSS"
     ],
     "repo": "https://github.com/b-1-o/music",
-    "site": "https://b-1-o.github.io/music/"
+    "site": "https://b-1-o.github.io/music/",
+    "preview": "https://raw.githubusercontent.com/b-1-o/music/main/assets/preview.jpeg"
+  },
+  {
+    "id": "07",
+    "name": "Autofill",
+    "icon": "web",
+    "kind": "BROWSER EXTENSION · PRODUCTIVITY",
+    "blurb": "A review-first Chrome extension that fills recognized job application fields without auto-submitting forms.",
+    "detail": "Manifest V3 extension using chrome.storage.sync, React-controlled input handling, MutationObserver and iframe-aware field detection. Submission remains under the user's control.",
+    "stack": [
+      "JavaScript",
+      "Chrome Extension API",
+      "Manifest V3",
+      "MutationObserver",
+      "Vercel Functions"
+    ],
+    "repo": "https://github.com/b-1-o/autofill",
+    "site": null,
+    "preview": null
+  },
+  {
+    "id": "08",
+    "name": "Brew & Bloom",
+    "icon": "brand",
+    "kind": "FRONTEND CONCEPT · EDITORIAL COMMERCE",
+    "blurb": "A cinematic coffee and dessert experience with product storytelling, an interactive hero, recipes and detail views.",
+    "detail": "React 19, TypeScript, Vite, Tailwind CSS and Motion. Built to explore image-led layouts, responsive composition, and considered transitions.",
+    "stack": [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Motion"
+    ],
+    "repo": "https://github.com/b-1-o/coffee",
+    "site": "https://b-1-o.github.io/coffee/",
+    "preview": null
   },
   {
     "id": "09",
-    "name": "Bio",
-    "icon": "linux",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "Bio — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "name": "myUI",
+    "icon": "web",
+    "kind": "UI PLAYGROUND · INTERACTION STUDIES",
+    "blurb": "A personal frontend workbench for testing layouts, typography, transitions, and small interaction details.",
+    "detail": "React, JavaScript, CSS and Vite. A place to explore component behavior and responsive rhythm before using patterns in larger builds.",
     "stack": [
-      "TypeScript"
+      "React",
+      "JavaScript",
+      "CSS",
+      "Vite",
+      "GitHub Pages"
     ],
-    "repo": "https://github.com/b-1-o/Bio",
-    "site": "https://b-1-o.github.io/Bio/"
+    "repo": "https://github.com/b-1-o/myUI",
+    "site": "https://b-1-o.github.io/myUI/",
+    "preview": "https://raw.githubusercontent.com/b-1-o/myUI/main/assets/preview.jpeg"
   },
   {
     "id": "10",
-    "name": "my",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "my — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "name": "Bio",
+    "icon": "linux",
+    "kind": "PERSONAL WEB EXPERIENCE · MOTION",
+    "blurb": "A gothic-inspired interactive bio experience focused on identity, custom visuals, embedded music and motion.",
+    "detail": "React 19, TypeScript, Vite, Framer Motion and CSS; designed as a compact, responsive personal experience.",
     "stack": [
-      "TypeScript"
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Framer Motion",
+      "CSS"
     ],
-    "repo": "https://github.com/b-1-o/my",
-    "site": "https://b-1-o.github.io/my/"
+    "repo": "https://github.com/b-1-o/Bio",
+    "site": "https://b-1-o.github.io/Bio/",
+    "preview": null
   }
 ]
