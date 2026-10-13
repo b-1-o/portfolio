@@ -3,11 +3,11 @@
     "id": "01",
     "name": "selfmusic",
     "icon": "music",
-    "kind": "GITHUB · CSS",
+    "kind": "GITHUB · JAVASCRIPT",
     "blurb": "selfmusic — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/12/2026.",
+    "detail": "Public GitHub repository · main branch · updated 10/13/2026.",
     "stack": [
-      "CSS"
+      "JavaScript"
     ],
     "repo": "https://github.com/b-1-o/selfmusic",
     "site": "https://b-1-o.github.io/selfmusic/"
