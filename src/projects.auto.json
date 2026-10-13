@@ -182,5 +182,18 @@
     "repo": "https://github.com/b-1-o/Bio",
     "site": "https://b-1-o.github.io/Bio/",
     "preview": null
+  },
+  {
+    "name": "my",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "my — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/5/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/my",
+    "site": "https://b-1-o.github.io/my/",
+    "id": "11"
   }
 ]
