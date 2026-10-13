@@ -1,5 +1,7 @@
+import featuredProjects from './projects.featured.json';
+
 const OWNER = 'b-1-o';
-const EXCLUDED = new Set(['b-1-o', 'portfolio', 'myUI', 'Portfolio']);
+const EXCLUDED = new Set(['b-1-o', 'portfolio', 'Portfolio']);
 const DISPLAY_NAMES = { Bio: 'Bio', AI: 'AI' };
 
 const iconFor = (repo) => {
@@ -22,6 +24,26 @@ const iconFor = (repo) => {
   return 'web';
 };
 
+const featuredNames = new Set(featuredProjects.map(project => project.repoName.toLowerCase()));
+const mapExtraProject = (repo) => {
+  const name = DISPLAY_NAMES[repo.name] || repo.name;
+  const topics = Array.isArray(repo.topics) ? repo.topics.slice(0, 5) : [];
+  const stack = [repo.language, ...topics].filter(Boolean).filter((v, j, a) => a.indexOf(v) === j);
+  const site = repo.homepage && repo.homepage.trim()
+    ? repo.homepage.trim()
+    : (repo.has_pages ? 'https://' + OWNER + '.github.io/' + repo.name + '/' : null);
+  return {
+    name,
+    icon: iconFor(repo),
+    kind: 'GITHUB · ' + (repo.language ? repo.language.toUpperCase() : 'PROJECT'),
+    blurb: repo.description && repo.description.trim() ? repo.description.trim() : name + ' — public GitHub project.',
+    detail: 'Public GitHub repository · ' + (repo.default_branch || 'main') + ' branch · updated ' + new Date(repo.updated_at).toLocaleDateString('en-US') + '.',
+    stack,
+    repo: repo.html_url,
+    site,
+  };
+};
+
 export async function fetchLiveProjects(signal) {
   const repos = [];
   for (let page = 1; page <= 10; page += 1) {
@@ -29,17 +51,22 @@ export async function fetchLiveProjects(signal) {
       headers: { Accept: 'application/vnd.github+json' }, cache: 'no-store', signal,
     });
     if (!response.ok) throw new Error('GitHub API ' + response.status);
-    const batch = await response.json(); repos.push(...batch);
+    const batch = await response.json();
+    repos.push(...batch);
     if (batch.length < 100) break;
   }
-  return repos
-    .filter((r) => !r.private && !r.archived && !r.fork && !EXCLUDED.has(r.name))
-    .sort((a,b) => new Date(b.updated_at) - new Date(a.updated_at))
-    .map((r, i) => {
-      const name = DISPLAY_NAMES[r.name] || r.name;
-      const topics = Array.isArray(r.topics) ? r.topics.slice(0, 5) : [];
-      const stack = [r.language, ...topics].filter(Boolean).filter((v,j,a) => a.indexOf(v) === j);
-      const site = r.homepage && r.homepage.trim() ? r.homepage.trim() : (r.has_pages ? 'https://' + OWNER + '.github.io/' + r.name + '/' : null);
-      return { id: String(i + 1).padStart(2,'0'), name, icon: iconFor(r), kind: 'GITHUB · ' + (r.language ? r.language.toUpperCase() : 'PROJECT'), blurb: r.description && r.description.trim() ? r.description.trim() : name + ' — public GitHub project.', detail: 'Public GitHub repository · ' + (r.default_branch || 'main') + ' branch · updated ' + new Date(r.updated_at).toLocaleDateString('en-US') + '.', stack, repo: r.html_url, site };
-    });
+
+  const publicRepos = repos.filter(repo => !repo.private && !repo.archived && !repo.fork && !EXCLUDED.has(repo.name));
+  const byName = new Map(publicRepos.map(repo => [repo.name.toLowerCase(), repo]));
+  const featured = featuredProjects.map(({ repoName, ...project }) => {
+    const actual = byName.get(repoName.toLowerCase());
+    return { ...project, repo: actual?.html_url || project.repo };
+  });
+  const extras = publicRepos
+    .filter(repo => !featuredNames.has(repo.name.toLowerCase()))
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+    .slice(0, 18)
+    .map(mapExtraProject);
+
+  return [...featured, ...extras].map((project, index) => ({ ...project, id: String(index + 1).padStart(2, '0') }));
 };

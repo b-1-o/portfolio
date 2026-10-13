@@ -70,26 +70,26 @@ const SFX = {
 const initialProjects = Array.isArray(autoProjects) ? autoProjects : [];
 
 const services = [
-  { title: 'Product UI', text: 'Interfaces for real products — dashboards, booking flows, music tools and command centers with clear hierarchy.' },
-  { title: 'Immersive web', text: 'Atmospheric experiences with WebGL, motion and custom interaction models that still stay usable.' },
-  { title: 'Frontend systems', text: 'React + TypeScript apps with solid structure, Vite builds and attention to performance on real devices.' },
-  { title: 'Freelance delivery', text: 'Available on Fiverr and Contra for focused builds, redesigns and interactive portfolio pieces.' },
+  { title: 'Interface engineering', text: 'Responsive React and Next.js interfaces built from reusable components, clear state, and careful interaction details.' },
+  { title: 'Product-minded frontend', text: 'Dashboards, discovery flows, music tools, and workflow products designed around the people using them.' },
+  { title: 'Creative development', text: 'Canvas, OGL/WebGL, GSAP, and custom visual effects that add character without sacrificing usability.' },
+  { title: 'APIs & integrations', text: 'Frontend experiences connected to real services, authentication, data, and deployment workflows.' },
 ];
 
 const timeline = [
-  { year: '2026', title: 'Immersive portfolio system', text: 's1eep, fog, forest, music — a shared visual language across experiments.' },
-  { year: '2025', title: 'Tools & native', text: 'biohub, Biogram, remote agent work — Linux productivity and iOS architecture.' },
-  { year: 'Now', title: 'Open for work', text: 'Frontend / UI freelance and product collaboration from Los Angeles.' },
+  { year: '01', title: 'Understand the problem', text: 'Clarify the user, the core task, the important states, and what a successful interaction should feel like.' },
+  { year: '02', title: 'Build the system', text: 'Create responsive components, connect APIs and application state, and keep the structure easy to evolve.' },
+  { year: '03', title: 'Refine the details', text: 'Test smaller screens, keyboard paths, contrast, motion, loading states, and the finish of every interaction.' },
 ];
 
 const skills = {
-  frontend: ['React', 'TypeScript', 'JavaScript', 'Vite', 'CSS', 'Motion'],
-  graphics: ['WebGL', 'ogl', 'Shaders', '3D CSS', 'Ripple / distortion'],
-  other: ['Python', 'FastAPI', 'Swift / iOS', 'Bazel', 'Node', 'UI design'],
+  frontend: ['React', 'TypeScript', 'JavaScript', 'Next.js', 'Vite', 'Responsive CSS', 'Accessibility'],
+  product: ['API integration', 'PostgreSQL / Neon', 'Clerk & OAuth', 'State management', 'Vercel', 'Git / GitHub Actions'],
+  creative: ['Canvas', 'WebGL / OGL', 'GSAP', 'Shader effects', 'Motion systems', 'Interaction design'],
 };
 
 const makeCarouselItems = list => list.map(p => ({
-  src: projectIcon(p.icon || 'web'),
+  src: p.preview || projectIcon(p.icon || 'web'),
   alt: p.name,
   title: p.name,
   subtitle: p.kind,
@@ -100,7 +100,7 @@ const socials = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/b1o/', note: 'b1o' },
   { label: 'Fiverr', href: 'https://www.fiverr.com/webbio/', note: 'webbio' },
   { label: 'Contra', href: 'https://contra.com/erik_868bxnxk', note: 'Erik' },
-  { label: 'Mail', href: 'mailto:l.biodev.l@gmail.com', note: 'l.biodev.l@gmail.com' },
+  { label: 'Email', href: 'mailto:eghabuzyan@gmail.com', note: 'eghabuzyan@gmail.com' },
 ];
 
 function ProjectPanel({ project, onClose }) {
@@ -123,7 +123,7 @@ function ProjectPanel({ project, onClose }) {
         <h3>{project.name}</h3>
         <p>{project.blurb}</p>
         {project.detail ? <p className="panel-detail">{project.detail}</p> : null}
-        <div className="work-stack">{project.stack.map(t => <span key={t}>{t}</span>)}</div>
+        <div className="work-stack">{(project.stack || []).map(t => <span key={t}>{t}</span>)}</div>
         <div className="project-panel-actions">
           <a className="panel-btn" href={project.repo} target="_blank" rel="noreferrer">REPOSITORY</a>
           {project.site ? <a className="panel-btn panel-btn-solid" href={project.site} target="_blank" rel="noreferrer">LIVE SITE</a> : null}
@@ -273,8 +273,8 @@ function App() {
         </a>
         <nav className="site-nav" aria-label="Primary">
           <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
           <a href="#work">WORK</a>
+          <a href="#about">ABOUT</a>
           <a href="#services">SERVICES</a>
           <a href="#connect">CONNECT</a>
         </nav>
@@ -290,23 +290,22 @@ function App() {
           <span>LA / FRONTEND</span>
           <span>{formattedTime}</span>
         </div>
-        <p className="eyebrow">ERIK · B-1-O · FRONTEND DEVELOPER & UI DESIGNER</p>
+        <p className="eyebrow">FRONTEND DEVELOPER · UI ENGINEERING · BURBANK, CA</p>
         <h1>Interfaces that<br /><span>feel alive.</span></h1>
         <p className="intro">
-          I design and build modern React & TypeScript surfaces — atmospheric web experiences,
-          product UIs and tools with motion, depth and quiet detail. Based in Los Angeles.
-          Open for freelance on Fiverr and Contra.
+          I build responsive React and Next.js interfaces, API-connected products, and motion-led web experiences.
+          My work spans SaaS tools, music products, browser extensions, and creative coding. Based in Burbank,
+          Los Angeles — open to junior frontend roles and focused freelance projects.
         </p>
         <div className="hero-actions">
-          <a href="#work" className="enter-link"><span>VIEW WORK</span><span className="enter-glyph">↘</span></a>
-          <a href="#connect" className="enter-link enter-link-ghost"><span>HIRE ME</span><span className="enter-glyph">→</span></a>
+          <a href="#work" className="enter-link"><span>EXPLORE PROJECTS</span><span className="enter-glyph">↘</span></a>
+          <a href="#connect" className="enter-link enter-link-ghost"><span>LET'S TALK</span><span className="enter-glyph">→</span></a>
         </div>
         <div className="hero-stats hud-copy">
-          <div><strong>12+</strong><span>PUBLIC PROJECTS</span></div>
-          <div><strong>REACT</strong><span>PRIMARY STACK</span></div>
-          <div><strong>LA</strong><span>BASED</span></div>
+          <div><strong>{String(projects.length || 10).padStart(2, '0')}</strong><span>PUBLIC BUILDS</span></div>
+          <div><strong>REACT + TS</strong><span>CORE TOOLKIT</span></div>
+          <div><strong>LA / CA</strong><span>BASED IN BURBANK</span></div>
         </div>
-      </section>
 
       <aside className="surface-hud hud-copy">
         <div className="surface-index">01 / SURFACE</div>
@@ -316,52 +315,15 @@ function App() {
           <small>RIPPLE DISTORTION · REACT BITS</small>
         </div>
       </aside>
-
-      <section id="about" className="about-section hud">
-        <div className="about-label">02 / ABOUT</div>
-        <div>
-          <h2>Erik.<br /><span>Frontend & UI.</span></h2>
-          <p>
-            I ship immersive web experiences, music tools, iOS experiments and local productivity systems.
-            Clean TypeScript, deliberate motion, low-light aesthetics. The same visual grammar runs through
-            fog, forest, music and this surface — interaction as atmosphere, not decoration.
-          </p>
-          <p className="about-extra">
-            Outside the browser: Python tooling (biohub, agents), Swift/iOS (Biogram) and product UIs
-            for real service flows. Available for focused freelance builds and longer product collaboration.
-          </p>
-        </div>
-        <div className="about-meta">
-          <span>REACT / TS</span>
-          <span>WEBGL · CSS</span>
-          <span>SWIFT · PYTHON</span>
-          <span>FIVERR · CONTRA</span>
-        </div>
       </section>
 
-      <section className="skills-section" aria-label="Skills">
-        <div className="skills-label hud-copy">03 / SKILLS</div>
-        <div className="skills-grid">
-          <div className="skills-block hud">
-            <h4>Frontend</h4>
-            <ul className="skills-list">{skills.frontend.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
-          </div>
-          <div className="skills-block hud">
-            <h4>Graphics</h4>
-            <ul className="skills-list">{skills.graphics.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
-          </div>
-          <div className="skills-block hud">
-            <h4>Systems</h4>
-            <ul className="skills-list">{skills.other.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
-          </div>
-        </div>
-      </section>
+
 
       <section id="work" className="work-section">
         <div className="work-head">
-          <span className="hud-copy work-kicker">04 / SELECTED WORK</span>
-          <h2>portfolio</h2>
-          <p>Scroll or drag the row — click a card to open the project panel.</p>
+          <span className="hud-copy work-kicker">02 / SELECTED WORK</span>
+          <h2>Selected work.</h2>
+          <p>Real projects, real code. Open a card for the stack, a concise build summary, and the repository or live demo.</p>
         </div>
         <div className="work-carousel hud">
           <FlexCarousel
@@ -385,11 +347,54 @@ function App() {
         </div>
       </section>
 
+      <section id="about" className="about-section hud">
+        <div className="about-label">03 / ABOUT</div>
+        <div>
+          <h2>I build products.<br /><span>Down to the details.</span></h2>
+          <p>
+            I'm a frontend developer focused on the bridge between product thinking and visual craft.
+            I build responsive interfaces, data-driven workflows, and interactive experiences — from
+            clear application states and reusable components to the motion and texture that give a product its character.
+          </p>
+          <p className="about-extra">
+            Recent work includes JoBrain, a job-search command center; HEAVEN, a developer workspace;
+            SelfMusic, a self-hosted music server; and Canvas/WebGL experiments. I care about usable interfaces,
+            accessible interaction, maintainable code, and the details that make a product feel finished.
+          </p>
+        </div>
+        <div className="about-meta">
+          <span>REACT · NEXT.JS</span>
+          <span>API · DATA · AUTH</span>
+          <span>CANVAS · WEBGL</span>
+          <span>GITHUB · VERCEL</span>
+        </div>
+      </section>
+
+      <section className="skills-section" aria-label="Skills">
+        <div className="skills-label hud-copy">04 / TOOLKIT</div>
+        <div className="skills-grid">
+          <div className="skills-block hud">
+            <h4>Frontend</h4>
+            <ul className="skills-list">{skills.frontend.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
+          </div>
+          <div className="skills-block hud">
+            <h4>Product engineering</h4>
+            <ul className="skills-list">{skills.product.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
+          </div>
+          <div className="skills-block hud">
+            <h4>Creative coding</h4>
+            <ul className="skills-list">{skills.creative.map(s => <li key={s} className="skill-chip">{s}</li>)}</ul>
+          </div>
+        </div>
+      </section>
+
+
+
       <section id="services" className="services-section">
         <div className="work-head">
           <span className="hud-copy work-kicker">05 / SERVICES</span>
           <h2>What I build</h2>
-          <p>Product surfaces, immersive pages and frontend systems — shipped with care.</p>
+          <p>Focused work across product interfaces, visual systems, integrations, and interactive frontend experiences.</p>
         </div>
         <div className="services-grid">
           {services.map(s => (
@@ -403,8 +408,8 @@ function App() {
 
       <section className="timeline-section">
         <div className="work-head">
-          <span className="hud-copy work-kicker">06 / PATH</span>
-          <h2>Timeline</h2>
+          <span className="hud-copy work-kicker">06 / PROCESS</span>
+          <h2>How I work.</h2>
         </div>
         <ol className="timeline-list">
           {timeline.map(t => (
@@ -423,12 +428,12 @@ function App() {
         <div className="connect-label">07 / CONNECT</div>
         <div>
           <h2>Find me<br /><span>online.</span></h2>
-          <p>Open to freelance and product work. Reach out on Fiverr, Contra, LinkedIn or GitHub — or email me directly.</p>
+          <p>Interested in junior frontend opportunities, thoughtful product teams, and clearly scoped freelance projects. Send a note or explore the code behind my work.</p>
         </div>
         <ul className="social-list">
           {socials.map(s => (
             <li key={s.label}>
-              <a href={s.href} target="_blank" rel="noreferrer">
+              <a href={s.href} target={s.href.startsWith('mailto:') ? undefined : '_blank'} rel={s.href.startsWith('mailto:') ? undefined : 'noreferrer'}>
                 <span>{s.label}</span>
                 <small>{s.note}</small>
               </a>
@@ -440,7 +445,7 @@ function App() {
       <footer className="footer hud-copy">
         <span>B-1-O / ERIK</span>
         <span>LA · 2026</span>
-        <span>REACT BITS · RIPPLE</span>
+        <span>REACT · TYPESCRIPT · CREATIVE FRONTEND</span>
       </footer>
 
       {openProject ? <ProjectPanel project={openProject} onClose={() => setOpenProject(null)} /> : null}
