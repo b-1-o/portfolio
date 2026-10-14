@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "cloud-project",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "cloud-project — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/14/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/cloud-project",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "my",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,6 +207,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "11"
+    "id": "12"
   }
 ]
