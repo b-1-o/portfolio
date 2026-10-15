@@ -187,13 +187,13 @@
     "name": "cloud-project",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "cloud-project — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/14/2026.",
+    "blurb": "CollabDocs - real time document workspace",
+    "detail": "Public GitHub repository · main branch · updated 10/15/2026.",
     "stack": [
       "TypeScript"
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
-    "site": null,
+    "site": "https://collab-docs-4tb.pages.dev/",
     "id": "11"
   },
   {
