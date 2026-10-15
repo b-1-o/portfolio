@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "clothes-",
+    "icon": "web",
+    "kind": "GITHUB · CSS",
+    "blurb": "clothes- — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/15/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/clothes-",
+    "site": "https://b-1-o.github.io/clothes-/",
+    "id": "11"
+  },
+  {
     "name": "cloud-project",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "my",
@@ -207,6 +220,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "12"
+    "id": "13"
   }
 ]
