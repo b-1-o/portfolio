@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "B1web",
+    "icon": "web",
+    "kind": "GITHUB · CSS",
+    "blurb": "B1web — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/22/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/B1web",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "shopline",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "cloud-project",
@@ -207,7 +220,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "my",
@@ -220,6 +233,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "13"
+    "id": "14"
   }
 ]
