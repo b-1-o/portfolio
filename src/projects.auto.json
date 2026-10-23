@@ -186,15 +186,26 @@
   {
     "name": "B1web",
     "icon": "web",
-    "kind": "GITHUB · CSS",
+    "kind": "GITHUB · TYPESCRIPT",
     "blurb": "B1web — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/22/2026.",
+    "detail": "Public GitHub repository · main branch · updated 10/23/2026.",
     "stack": [
-      "CSS"
+      "TypeScript"
     ],
     "repo": "https://github.com/b-1-o/B1web",
     "site": null,
     "id": "11"
+  },
+  {
+    "name": "jtheme",
+    "icon": "web",
+    "kind": "GITHUB · PROJECT",
+    "blurb": "jtheme — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/23/2026.",
+    "stack": [],
+    "repo": "https://github.com/b-1-o/jtheme",
+    "site": null,
+    "id": "12"
   },
   {
     "name": "shopline",
@@ -207,7 +218,7 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "cloud-project",
@@ -220,7 +231,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "my",
@@ -233,6 +244,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "14"
+    "id": "15"
   }
 ]
