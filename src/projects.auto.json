@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "shopline",
+    "icon": "web",
+    "kind": "GITHUB · CSS",
+    "blurb": "shopline — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/24/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/shopline",
+    "site": "https://shopline-bice.vercel.app",
+    "id": "11"
+  },
+  {
     "name": "B1web",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,19 +207,6 @@
     ],
     "repo": "https://github.com/b-1-o/B1web",
     "site": null,
-    "id": "11"
-  },
-  {
-    "name": "shopline",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "shopline — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/21/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/shopline",
-    "site": "https://shopline-bice.vercel.app",
     "id": "12"
   },
   {
