@@ -187,6 +187,19 @@
     "name": "B1web",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "B1web — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/25/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/B1web",
+    "site": null,
+    "id": "11"
+  },
+  {
+    "name": "B1O-TV",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
     "blurb": "B1O TV",
     "detail": "Public GitHub repository · main branch · updated 10/25/2026.",
     "stack": [
@@ -197,9 +210,9 @@
       "jellyfin",
       "media-dashboard"
     ],
-    "repo": "https://github.com/b-1-o/B1web",
+    "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "shopline",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "cloud-project",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "my",
@@ -238,6 +251,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "14"
+    "id": "15"
   }
 ]
