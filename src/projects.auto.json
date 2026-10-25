@@ -184,6 +184,24 @@
     "preview": null
   },
   {
+    "name": "B1web",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "B1O TV",
+    "detail": "Public GitHub repository · main branch · updated 10/25/2026.",
+    "stack": [
+      "TypeScript",
+      "ai-assistants",
+      "cloudflare-workers",
+      "home-theater",
+      "jellyfin",
+      "media-dashboard"
+    ],
+    "repo": "https://github.com/b-1-o/B1web",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "shopline",
     "icon": "web",
     "kind": "GITHUB · CSS",
@@ -194,19 +212,6 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "11"
-  },
-  {
-    "name": "B1web",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "B1web — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/23/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/B1web",
-    "site": null,
     "id": "12"
   },
   {
