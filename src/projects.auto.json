@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "B1ogram",
+    "icon": "web",
+    "kind": "GITHUB · SWIFT",
+    "blurb": "B1ogram — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 10/27/2026.",
+    "stack": [
+      "Swift"
+    ],
+    "repo": "https://github.com/b-1-o/B1ogram",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "SAIA",
     "icon": "agent",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/SAIA",
     "site": null,
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "B1O-TV",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "shopline",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "cloud-project",
@@ -238,7 +251,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "my",
@@ -251,6 +264,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "15"
+    "id": "16"
   }
 ]
