@@ -187,10 +187,15 @@
     "name": "B1ogram",
     "icon": "web",
     "kind": "GITHUB · SWIFT",
-    "blurb": "B1ogram — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/27/2026.",
+    "blurb": "Biogram - fork of Telegram with custom UI",
+    "detail": "Public GitHub repository · main branch · updated 10/28/2026.",
     "stack": [
-      "Swift"
+      "Swift",
+      "connect",
+      "ios",
+      "ios-app",
+      "ios-development",
+      "ios-swift"
     ],
     "repo": "https://github.com/b-1-o/B1ogram",
     "site": null,
