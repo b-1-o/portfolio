@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "userfind",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "userfind — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/1/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/userfind",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "Biogram",
     "icon": "phone",
     "kind": "GITHUB · SWIFT",
@@ -199,7 +212,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "SAIA",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/SAIA",
     "site": null,
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "B1O-TV",
@@ -230,7 +243,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "shopline",
@@ -243,7 +256,7 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "cloud-project",
@@ -256,7 +269,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://collab-docs-4tb.pages.dev/",
-    "id": "15"
+    "id": "16"
   },
   {
     "name": "my",
@@ -269,6 +282,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "16"
+    "id": "17"
   }
 ]
