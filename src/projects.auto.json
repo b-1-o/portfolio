@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "cloud-project",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "CollabDocs - real time document workspace",
+    "detail": "Public GitHub repository · main branch · updated 11/4/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/cloud-project",
+    "site": "https://collab-docs-4tb.pages.dev/",
+    "id": "11"
+  },
+  {
     "name": "Biogram",
     "icon": "phone",
     "kind": "GITHUB · SWIFT",
@@ -199,7 +212,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "userfind",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/userfind",
     "site": null,
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "SAIA",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/SAIA",
     "site": null,
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "B1O-TV",
@@ -243,7 +256,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "shopline",
@@ -256,19 +269,6 @@
     ],
     "repo": "https://github.com/b-1-o/shopline",
     "site": "https://shopline-bice.vercel.app",
-    "id": "15"
-  },
-  {
-    "name": "cloud-project",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "CollabDocs - real time document workspace",
-    "detail": "Public GitHub repository · main branch · updated 10/19/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/cloud-project",
-    "site": "https://collab-docs-4tb.pages.dev/",
     "id": "16"
   },
   {
