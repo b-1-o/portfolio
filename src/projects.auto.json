@@ -187,13 +187,13 @@
     "name": "cloud-project",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "CollabDocs - real time document workspace",
-    "detail": "Public GitHub repository · main branch · updated 11/4/2026.",
+    "blurb": "Vixiny- real time document workspace",
+    "detail": "Public GitHub repository · main branch · updated 11/5/2026.",
     "stack": [
       "TypeScript"
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
-    "site": "https://collab-docs-4tb.pages.dev/",
+    "site": "https://vixiny.pages.dev",
     "id": "11"
   },
   {
