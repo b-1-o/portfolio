@@ -184,6 +184,24 @@
     "preview": null
   },
   {
+    "name": "B1O-TV",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "B1O TV",
+    "detail": "Public GitHub repository · main branch · updated 11/11/2026.",
+    "stack": [
+      "TypeScript",
+      "ai-assistants",
+      "cloudflare-workers",
+      "home-theater",
+      "jellyfin",
+      "media-dashboard"
+    ],
+    "repo": "https://github.com/b-1-o/B1O-TV",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "cloud-project",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,7 +212,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://vixiny.pages.dev",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "Rubygram",
@@ -207,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "Biogram",
@@ -224,24 +242,6 @@
       "ios-swift"
     ],
     "repo": "https://github.com/b-1-o/Biogram",
-    "site": null,
-    "id": "13"
-  },
-  {
-    "name": "B1O-TV",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "B1O TV",
-    "detail": "Public GitHub repository · main branch · updated 10/25/2026.",
-    "stack": [
-      "TypeScript",
-      "ai-assistants",
-      "cloudflare-workers",
-      "home-theater",
-      "jellyfin",
-      "media-dashboard"
-    ],
-    "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
     "id": "14"
   },
