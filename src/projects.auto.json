@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "cloud-project",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "Vixiny- real time document workspace",
+    "detail": "Public GitHub repository · main branch · updated 11/11/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/cloud-project",
+    "site": "https://vixiny.pages.dev",
+    "id": "11"
+  },
+  {
     "name": "Rubygram",
     "icon": "web",
     "kind": "GITHUB · SWIFT",
@@ -194,19 +207,6 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "11"
-  },
-  {
-    "name": "cloud-project",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "Vixiny- real time document workspace",
-    "detail": "Public GitHub repository · main branch · updated 11/5/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/cloud-project",
-    "site": "https://vixiny.pages.dev",
     "id": "12"
   },
   {
@@ -228,32 +228,6 @@
     "id": "13"
   },
   {
-    "name": "userfind",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "userfind — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 11/2/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/userfind",
-    "site": null,
-    "id": "14"
-  },
-  {
-    "name": "SAIA",
-    "icon": "agent",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "SAIA — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/27/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/SAIA",
-    "site": null,
-    "id": "15"
-  },
-  {
     "name": "B1O-TV",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -269,20 +243,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "16"
-  },
-  {
-    "name": "shopline",
-    "icon": "web",
-    "kind": "GITHUB · CSS",
-    "blurb": "shopline — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 10/24/2026.",
-    "stack": [
-      "CSS"
-    ],
-    "repo": "https://github.com/b-1-o/shopline",
-    "site": "https://shopline-bice.vercel.app",
-    "id": "17"
+    "id": "14"
   },
   {
     "name": "my",
@@ -295,6 +256,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "18"
+    "id": "15"
   }
 ]
