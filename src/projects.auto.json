@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "tata",
+    "icon": "web",
+    "kind": "GITHUB · CSS",
+    "blurb": "tata — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/13/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/tata",
+    "site": "https://b-1-o.github.io/tata/",
+    "id": "11"
+  },
+  {
     "name": "B1O-TV",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -199,7 +212,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "cloud-project",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://vixiny.pages.dev",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "Rubygram",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "Biogram",
@@ -243,7 +256,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "my",
@@ -256,6 +269,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "15"
+    "id": "16"
   }
 ]
