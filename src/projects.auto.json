@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "tata_bot",
+    "icon": "web",
+    "kind": "GITHUB · HTML",
+    "blurb": "tata_bot — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/13/2026.",
+    "stack": [
+      "HTML"
+    ],
+    "repo": "https://github.com/b-1-o/tata_bot",
+    "site": "https://tata-course-miniapp.vercel.app",
+    "id": "11"
+  },
+  {
     "name": "tata",
     "icon": "web",
     "kind": "GITHUB · CSS",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/tata",
     "site": "https://b-1-o.github.io/tata/",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "B1O-TV",
@@ -212,7 +225,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "cloud-project",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://vixiny.pages.dev",
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "Rubygram",
@@ -238,7 +251,7 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "Biogram",
@@ -256,7 +269,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "15"
+    "id": "16"
   },
   {
     "name": "my",
@@ -269,6 +282,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "16"
+    "id": "17"
   }
 ]
