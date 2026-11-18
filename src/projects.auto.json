@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "nails",
+    "icon": "agent",
+    "kind": "GITHUB · CSS",
+    "blurb": "nails — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/17/2026.",
+    "stack": [
+      "CSS"
+    ],
+    "repo": "https://github.com/b-1-o/nails",
+    "site": "https://b-1-o.github.io/nails/",
+    "id": "11"
+  },
+  {
     "name": "tata_bot",
     "icon": "web",
     "kind": "GITHUB · HTML",
@@ -194,19 +207,6 @@
     ],
     "repo": "https://github.com/b-1-o/tata_bot",
     "site": "https://tata-course-miniapp.vercel.app",
-    "id": "11"
-  },
-  {
-    "name": "tata",
-    "icon": "web",
-    "kind": "GITHUB · CSS",
-    "blurb": "tata — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 11/13/2026.",
-    "stack": [
-      "CSS"
-    ],
-    "repo": "https://github.com/b-1-o/tata",
-    "site": "https://b-1-o.github.io/tata/",
     "id": "12"
   },
   {
