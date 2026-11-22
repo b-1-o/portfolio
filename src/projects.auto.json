@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "flowy",
+    "icon": "web",
+    "kind": "GITHUB · TYPESCRIPT",
+    "blurb": "flowy — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/22/2026.",
+    "stack": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/b-1-o/flowy",
+    "site": "https://flowy-taupe.vercel.app",
+    "id": "11"
+  },
+  {
     "name": "nails",
     "icon": "agent",
     "kind": "GITHUB · CSS",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/nails",
     "site": "https://b-1-o.github.io/nails/",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "tata_bot",
@@ -207,7 +220,7 @@
     ],
     "repo": "https://github.com/b-1-o/tata_bot",
     "site": "https://tata-course-miniapp.vercel.app",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "B1O-TV",
@@ -225,7 +238,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "cloud-project",
@@ -238,7 +251,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://vixiny.pages.dev",
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "Rubygram",
@@ -251,7 +264,7 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "15"
+    "id": "16"
   },
   {
     "name": "Biogram",
@@ -269,7 +282,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "16"
+    "id": "17"
   },
   {
     "name": "my",
@@ -282,6 +295,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "17"
+    "id": "18"
   }
 ]
