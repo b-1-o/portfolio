@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "osuext",
+    "icon": "web",
+    "kind": "GITHUB · JAVASCRIPT",
+    "blurb": "osuext — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/24/2026.",
+    "stack": [
+      "JavaScript"
+    ],
+    "repo": "https://github.com/b-1-o/osuext",
+    "site": null,
+    "id": "11"
+  },
+  {
     "name": "flowy",
     "icon": "web",
     "kind": "GITHUB · TYPESCRIPT",
@@ -194,7 +207,7 @@
     ],
     "repo": "https://github.com/b-1-o/flowy",
     "site": "https://flowy-taupe.vercel.app",
-    "id": "11"
+    "id": "12"
   },
   {
     "name": "nails",
@@ -207,7 +220,7 @@
     ],
     "repo": "https://github.com/b-1-o/nails",
     "site": "https://b-1-o.github.io/nails/",
-    "id": "12"
+    "id": "13"
   },
   {
     "name": "tata_bot",
@@ -220,7 +233,7 @@
     ],
     "repo": "https://github.com/b-1-o/tata_bot",
     "site": "https://tata-course-miniapp.vercel.app",
-    "id": "13"
+    "id": "14"
   },
   {
     "name": "B1O-TV",
@@ -238,7 +251,7 @@
     ],
     "repo": "https://github.com/b-1-o/B1O-TV",
     "site": null,
-    "id": "14"
+    "id": "15"
   },
   {
     "name": "cloud-project",
@@ -251,7 +264,7 @@
     ],
     "repo": "https://github.com/b-1-o/cloud-project",
     "site": "https://vixiny.pages.dev",
-    "id": "15"
+    "id": "16"
   },
   {
     "name": "Rubygram",
@@ -264,7 +277,7 @@
     ],
     "repo": "https://github.com/b-1-o/Rubygram",
     "site": null,
-    "id": "16"
+    "id": "17"
   },
   {
     "name": "Biogram",
@@ -282,7 +295,7 @@
     ],
     "repo": "https://github.com/b-1-o/Biogram",
     "site": null,
-    "id": "17"
+    "id": "18"
   },
   {
     "name": "my",
@@ -295,6 +308,6 @@
     ],
     "repo": "https://github.com/b-1-o/my",
     "site": "https://b-1-o.github.io/my/",
-    "id": "18"
+    "id": "19"
   }
 ]
