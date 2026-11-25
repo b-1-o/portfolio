@@ -184,6 +184,19 @@
     "preview": null
   },
   {
+    "name": "Nina-s-Nails",
+    "icon": "agent",
+    "kind": "GITHUB · JAVASCRIPT",
+    "blurb": "Nina-s-Nails — public GitHub project.",
+    "detail": "Public GitHub repository · main branch · updated 11/25/2026.",
+    "stack": [
+      "JavaScript"
+    ],
+    "repo": "https://github.com/b-1-o/Nina-s-Nails",
+    "site": "https://b-1-o.github.io/Nina-s-Nails/",
+    "id": "11"
+  },
+  {
     "name": "osuext",
     "icon": "web",
     "kind": "GITHUB · JAVASCRIPT",
@@ -194,19 +207,6 @@
     ],
     "repo": "https://github.com/b-1-o/osuext",
     "site": null,
-    "id": "11"
-  },
-  {
-    "name": "flowy",
-    "icon": "web",
-    "kind": "GITHUB · TYPESCRIPT",
-    "blurb": "flowy — public GitHub project.",
-    "detail": "Public GitHub repository · main branch · updated 11/22/2026.",
-    "stack": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/b-1-o/flowy",
-    "site": "https://flowy-taupe.vercel.app",
     "id": "12"
   },
   {
